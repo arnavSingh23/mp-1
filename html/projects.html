@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Resume</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <script defer src="../js/calculator.js"></script>
+</head>
+<body>
+<header>
+    <h1>Projects</h1>
+    <p>Key technical and leadership projects I’ve worked on</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Raft Consensus Protocol</h2>
+    <p><strong>Distributed Systems Capstone</strong><br>
+        Built a fault-tolerant key-value store in Go implementing leader election, log replication, and crash recovery
+        using the Raft consensus algorithm.</p>
+
+    <h2>SparkMind</h2>
+    <p><strong>LLM-Powered Knowledge Assistant</strong><br>
+        Designed a RAG pipeline with FastAPI, FAISS, and LangChain to query BU Spark! archives, including custom
+        chunking, cross-encoder re-ranking, and citation scoring.</p>
+
+    <h2>Eligibility Tracking Platform</h2>
+    <p><strong>Fidelity Investments Internship</strong><br>
+        Built an Angular UI and Spring Boot backend integrated with Snowflake, Azure Service Bus, and Spring Batch to
+        manage 401(k) eligibility rules in real time.</p>
+
+    <h2>Campus Events App</h2>
+    <p><strong>Startup backed by BU Spark!</strong><br>
+        Developed backend APIs with NestJS, PostgreSQL, and Docker for a VC-backed events discovery platform.
+        Implemented LLM-driven recommendations boosting relevance 3× in beta.</p>
+
+    <h2>Spatial Transcriptomics Toolkit</h2>
+    <p><strong>Boston University Medical School</strong><br>
+        Created R/Python packages with DuckDB integration for efficient high-throughput analysis of transcriptomic data
+        in breast cancer research.</p>
+
+    <h2>Technical Project Management @ BU Spark!</h2>
+    <p><strong>Team Lead / TPM</strong><br>
+        Oversaw 8+ full-stack projects across civic tech, health tech, and social impact domains. Responsibilities
+        included sprint planning, system design reviews, and code quality checks.</p>
+    <ul>
+        <li><strong>MassCourts v3:</strong> Guided a team building a modernized court records platform.</li>
+        <li><strong>Health Data Explorer:</strong> Mentored engineers building data pipelines for public health
+            insights.
+        </li>
+        <li><strong>Community Engagement Tools:</strong> Supervised projects focused on local civic participation and
+            accessibility.
+        </li>
+    </ul>
+
+    <hr>
+    <h2>JavaScript Calculator</h2>
+    <div class="calculator">
+        <div class="calc-inputs">
+            <label for="first-number">First Number:</label>
+            <input id="first-number" placeholder="Enter first number" type="text">
+
+            <label for="second-number">Second Number:</label>
+            <input id="second-number" placeholder="Enter second number" type="text">
+        </div>
+
+        <div class="calc-buttons">
+            <button onclick="addNumbers()">+</button>
+            <button onclick="subtractNumbers()">-</button>
+            <button onclick="multiplyNumbers()">*</button>
+            <button onclick="divideNumbers()">/</button>
+            <button onclick="powerNumbers()">^</button>
+            <button onclick="clearCalc()">Clear</button>
+        </div>
+
+        <h3 id="output"></h3>
+    </div>
+
+</main>
+
+<footer>
+    <p>&#169; All Rights Reserved by Arnav Singh | <a href="credits.html">Credits</a></p>
+</footer>
+</body>
+</html>
